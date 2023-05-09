@@ -34,10 +34,11 @@
             id="name"
             placeholder="enter your name"
           />
-        </div class="input-box">
-        <div>
+        </div >
+        <div class="input-box">
           <label for="age">Age</label> <br />
-          <input type="number" name="age" id="age" placeholder="age" /> <br />
+          <input type="number" name="age" id="age" placeholder="age" /> <br /> <div>
+          <div class="input-box">
           <label for="email">Email</label> <br />
           <input
             type="email"
@@ -46,15 +47,38 @@
             placeholder="enter your Email"
           />
         </div>
-        <div class="input-box">
+        <div class="input-box" >
           <label for="content">Content Type</label> <br />
           <select name="Content" id="content">
-              <option value="Series" aria-placeholder="Series">Series</option>
-              <option value="Movies">Movies</option>
+              <option value="series" selected >Series</option>
+              <option value="movies">Movies</option>
+              <option value="movies">Documentaries</option>
         </select>
         </div>
+        <div class="input-box" id="checkbox">
+            <label for="">Movie Type</label> <br>
+            <input type="checkbox" name="movie" id="first-check"> 
+            <label for="first-check">Comedy</label> <br>
+            <input type="checkbox" name="movie1" id="second-check"> 
+            <label for="second-check">Action</label> <br>
+            <input type="checkbox" name="movie2" id="third-check"> 
+            <label for="third-check">Romance</label>
+         </div>
+         <div class="input-box" id="radio">
+          <label for="">Gender</label>  <br>
+          <input type="radio" name="gender" id="first-radio" value="Male">
+          <label for="first-radio">Male</label> <br>
+          <input type="radio" name="gender" id="second-radio" value="Female">
+          <label for="second-radio">Female</label> <br>
+          <input type="radio" name="gender" id="third-radio" value="other">
+          <label for="third-radio">Other</label>
+         </div>
+         <div class="input-box" id="feedback">
+          <label for="feedback">Feedback</label> <br>
+          <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="any comment"></textarea>
+         </div>
         <div class="submit">
-            <input type="submit" value="Send">
+          <button type="submit" id="form-button">Send</button>
         </div>
           </section>
         </form>
