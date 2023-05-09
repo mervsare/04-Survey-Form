@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="/survey-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>NET<span>FLIX</span></h1>
+      </header>
+      <h2>Thank you for signing up to Netflix. Tell me more about yourself.</h2>
+
+      <section id="form">
+        <form action="result.html" method="get">
+            <div class="input-box">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter your name"
+          />
+        </div class="input-box">
+        <div>
+          <label for="age">Age</label> <br />
+          <input type="number" name="age" id="age" placeholder="age" /> <br />
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter your Email"
+          />
+        </div>
+        <div class="input-box">
+          <label for="content">Content Type</label> <br />
+          <select name="Content" id="content">
+              <option value="Series" aria-placeholder="Series">Series</option>
+              <option value="Movies">Movies</option>
+        </select>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Send">
+        </div>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

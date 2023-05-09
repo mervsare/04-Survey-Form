@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  /* background-image: url(/img/netflix-background-image.png); */
+}
+
+#container {
+  width: 1240px;
+  height: 1036px;
+  background-color: rgb(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 30px;
+}
+header {
+  font-family: "Bowlby One SC", cursive;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+span {
+  color: #ff0000;
+}
+h2 {
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+#form {
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  pad: 30px 40px;
+  margin: 10px 0px 30px;
+}
